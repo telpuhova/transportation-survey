@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Counting</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Transportation Survey</h1>
+    <form class="transportation">
+      <div class="form-group">
+        <div class="worktransport">
+          <p>In the last year what methods of transportation have you used to get to work? (Check all that apply)</p>
+          <input type="checkbox" name="work-transport" value="bike">Riding a bike.<br>
+          <input type="checkbox" name="work-transport" value="car">Driving a car.<br>
+          <input type="checkbox" name="work-transport" value="carpool">Carpool.<br>
+          <input type="checkbox" name="work-transport" value="walking">Walking.<br>
+          <input type="checkbox" name="work-transport" value="uberlyft">Uber/Lyft.<br>
+          <input type="checkbox" name="work-transport" value="dogsled">Dog Sled.<br>
+          <input type="checkbox" name="work-transport" value="horse">Horse and Cart.<br>
+          <hr>
+        </div>
+        <div class="othertransport">
+          <p>What meathod of transportation do you primarily use when not going to work?</p>
+          <input type="checkbox" name="other-transport" value="bike">Riding a bike.<br>
+          <input type="checkbox" name="other-transport" value="car">Driving a car.<br>
+          <input type="checkbox" name="other-transport" value="carpool">Carpool.<br>
+          <input type="checkbox" name="other-transport" value="walking">Walking.<br>
+          <input type="checkbox" name="other-transport" value="uberlyft">Uber/Lyft.<br>
+          <input type="checkbox" name="other-transport" value="dogsled">Dog Sled.<br>
+          <input type="checkbox" name="other-transport" value="horse">Horse and Cart.<br>
+        </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+    <div class="output">
+      <p><span id="outputwork"></span></p>
+      <p><span id="outputother"></span></p>
+    </div>
+  </div>
+  </body>
+</html>
